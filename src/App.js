@@ -31,7 +31,7 @@ export default function App() {
     <div className="spellcheck-container">
       <h1>Spell Check and Auto-Correction</h1>
       <textarea
-        className="text-area"
+        className="textarea"
         value={text}
         onChange={handleTextChange}
         placeholder="Enter text..."
